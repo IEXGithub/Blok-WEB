@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Isabelle Eldering
+  Isabelle Eldering.
 
   #### Je startniveau:
   Blauwe Piste
