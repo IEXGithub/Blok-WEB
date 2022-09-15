@@ -139,7 +139,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Dus heb ik hulp gevraagd bij 1 van mijn klasgenoten.
   Hij zei dat ik het beste van die <a> een <img> kan maken en dan gewoon de afbeeldingen van Netflix zelf gebruiken.
-  <img src="./images/read_me_fotos/code_tot_nu_toe" alt="Code tot nu toe">
+  <img src="./images/read_me_fotos/code_tot_nu_toe.png" alt="Code tot nu toe">
 
   Ik denk dat ik al goed opweg ben.
 
