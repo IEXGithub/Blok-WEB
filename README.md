@@ -130,10 +130,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Ik vond het heel lastig om op gang te komen. Ik wist niet goed hoe ik moest beginnen.
 
   Ik wilde het eerst op deze manier gaan vormgeven:
-  <img src="./images/read_me_fotos/1e_code_2" alt="foto van eerste code">
+  <img src="./images/read_me_fotos/1e_code_2.jpeg" alt="foto van eerste code">
   
   En dat zag er dan zo uit zonder CSS:
-  <img src="./images/read_me_fotos/1e_code" alt="foto van eerste code op web">
+  <img src="./images/read_me_fotos/1e_code.jpeg" alt="foto van eerste code op web">
 
   Maar ik kwam niet verder op deze manier, omdat ik niet goed wist hoe ik dat dan moest gaan vormgeven dat het er op dezelfde manier uit komt te zien als bij Netflix.
 
