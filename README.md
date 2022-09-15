@@ -59,27 +59,43 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Hier korte omschrijving:
+  Het was erg ingewikkeld om voor elkaar te krijgen. Ik snapte niet goed hoe het nou moest werken.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Hier korte omschrijving: 
+    Keyboard only:
+    Het was heel erg omslachtig om de hele tijd op TAB te blijven drukken totdat je uiteindelijk bij het linkje was waar je wilde zijn.
+    Baloon hoog houden:
+    Het is niet heel erg vervelend. het is lastig met een lange tekst lezen want dan moet je natuurlijk geconcentreed zijn of bij het indrukken van je trackpad op je mac. daar is het lastige
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Hier een omschrijving van hoe het opgelost kan worden:
+  Voor Keyboard only zou je bijvoorbeeld snel menus kunnen maken zodat je het blijven tabben door alle linkjes in de menus skippen
+  Voor concentratie problemen zou je kunnen denken aan niet al te lange teksten en duidelijke buttons.
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Hier korte omschrijving:
+  Elastiekjes:
+    Dat is op je computer redelijk te doen. Je kan bijna alles gewoon doen. Bij je telefoon wordt het lastiger. Je gebruikt toch veel je telefoon met je duim. als je dan je duim niet hebt maakt dat het heel lastig en moet je eerder de telefoon neerleggen of in je andere hadn houden.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+    Shocks:
+    Het was erg lastig om de controle over je arm en hand te houden.
+
+  Hier een omschrijving van hoe het opgelost kan worden:
+  Grotere knoppen en meer ruimte tussen de knoppen.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Hier korte omschrijving:
+    - De bril met een zwarte stip:
+    Is erg hinderlijk. Je kan eigenlijk niks meer zien. Ik als niet blinden kan dan nog cheaten door rond om die stip te kijken en dan kan je nog genoeg zien, maar voor iemand die het wel heeft kan je daar niet om heen en overal waar je heen kijkt kan zie je de stip.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Hier een omschrijving van hoe het opgelost kan worden:
+  Grote muis en grote letters
 
 </details>
 
