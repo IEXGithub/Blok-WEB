@@ -1,0 +1,217 @@
+*, *::after, *::before {
+    box-sizing:border-box;  
+  }
+  
+  button, summary {
+      cursor: pointer;
+  }
+  
+  * {
+      padding: 0;
+      margin: 0;
+  }
+  
+  
+  
+  /*********************/
+  /* CUSTOM PROPERTIES */
+  /*********************/
+  :root {
+      /* startje */
+      --color-text: #e5e5e5;
+      --color-background: #141414;
+  }
+  
+  
+  
+  
+  
+  /****************/
+  /* JOUW STYLING */
+  /****************/
+  
+  /* jouw code */
+  
+  body {
+    color:var(--color-text);
+    background-color:var(--color-background);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body.toonMenu {
+      overflow: hidden;
+  }
+  
+  body li{
+      list-style-type: none;
+  }
+  
+  
+  
+  /**************/
+  /* NAVIGATION */
+  /**************/
+  
+  nav {
+      display: flex;
+  }
+  
+  nav div {
+      position: relative;
+  }
+  
+  nav div input {
+      /* width: 0;
+      border: 0; */
+      background: #141414;
+      /* background: var(--color-background); */
+      border: none;
+      font-size: 1.1em;
+      padding: 10px 44px 10px 10px;
+      width: 1.3em;
+      transition: all .2s ease-in-out;
+      cursor: pointer;
+      border-radius: 16px;
+      color: #141414;
+      margin-top: 1em;
+  }
+  
+  nav div input:focus {
+      width: 13em;
+      border: solid 2px red;
+      outline: 0;
+      color: rgb(195, 195, 195);
+      background-color: rgb(117, 117, 117);
+      z-index: -1;
+  }
+  
+  nav div img {
+      position: absolute;
+      right: 5%;
+      top: 30%;
+      transform: translateY(-50%);
+      pointer-events: none;
+  }
+  
+  nav img{
+      height: 34px;
+      margin-top: 1.3em;
+  }
+  
+  
+  nav a:first-of-type{
+      margin: auto;
+  }
+  
+  nav section button{
+      margin: 1em 0 0 1em;
+      padding: .4em;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #e50914;
+      color: white;
+      border-radius: .5em;
+      border-style: none;
+  }
+  
+  nav ul button{
+      padding: .5em;
+      margin: .4em 0 .5em -.3em;
+      background-color: #141414;
+  }
+  
+  nav section ul{
+      z-index: 1;
+      padding: 1em;
+    
+      display: grid;
+      align-content: start;
+      gap: 1em;
+      background-color: red;
+  
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+  
+      transform: translatex(-100%);
+  
+      transition: transform .3s;
+  }
+  
+  body.toonMenu nav ul {
+      transform: translatex(0);
+  }
+
+
+
+/********/
+/* MAIN */
+/********/
+
+main section video{
+    width: 29.3em;
+    margin: 1.5em 1em;
+    border-radius: 1em;
+}
+
+main section{
+    position: relative;
+}
+
+main section h2{
+    font-size: 2.7em;
+    text-shadow: 2px 2px 8px black;
+
+    position: absolute;
+    top: 4em;
+    left: 1em;
+}
+
+main section button{
+    padding: .4em;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+	border-radius: .5em;
+	border-style: none;
+    box-shadow: 5px 5px 8px;
+
+    position: absolute;
+    top: 16em;
+    left: 3em;
+}
+
+
+main section article:nth-of-type(1) img{
+    width: 2em;
+}
+
+
+
+/**********/
+/* FOOTER */
+/**********/
+
+
+
+
+footer section ul {
+	color: #808080;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 1em;
+    margin-top: 1em;
+}
+
+footer section li{
+	flex-basis: 50%;
+}
+
+footer p {
+	color: #808080;
+	font-size: small;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
