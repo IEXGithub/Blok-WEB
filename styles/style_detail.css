@@ -1,3 +1,6 @@
+/**************/
+/* CSS REMEDY */
+/**************/
 *, *::after, *::before {
     box-sizing:border-box;  
   }
@@ -61,10 +64,8 @@
   }
   
   nav div input {
-      /* width: 0;
-      border: 0; */
+  
       background: #141414;
-      /* background: var(--color-background); */
       border: none;
       font-size: 1.1em;
       padding: 10px 44px 10px 10px;
@@ -77,7 +78,7 @@
   }
   
   nav div input:focus {
-      width: 13em;
+      width: 8em;
       border: solid 2px red;
       outline: 0;
       color: rgb(195, 195, 195);
@@ -94,7 +95,7 @@
   }
   
   nav img{
-      height: 34px;
+      height: 28px;
       margin-top: 1.3em;
   }
   
@@ -102,17 +103,25 @@
   nav a:first-of-type{
       margin: auto;
   }
+
+  /*************/
+  /* OPEN MENU */
+  /*************/
   
   nav section button{
-      margin: 1em 0 0 1em;
+      margin: 1.2em 0 0 1em;
       padding: .4em;
-      font-size: 20px;
+      font-size: 18px;
       font-family: Arial, Helvetica, sans-serif;
       background-color: #e50914;
       color: white;
       border-radius: .5em;
       border-style: none;
   }
+
+  /**************/
+  /* SLUIT MENU */
+  /**************/
   
   nav ul button{
       padding: .5em;
@@ -151,27 +160,27 @@
 /********/
 
 main section video{
-    width: 29.3em;
-    margin: 1.5em 1em;
+    width: 21.5em;
+    margin: 1em 0;
     border-radius: 1em;
 }
 
-main section{
+main section:nth-of-type(1){
     position: relative;
 }
 
 main section h2{
-    font-size: 2.7em;
+    font-size: 1.7em;
     text-shadow: 2px 2px 8px black;
 
     position: absolute;
-    top: 4em;
-    left: 1em;
+    top: 5em;
+    left: .5em;
 }
 
 main section button{
     padding: .4em;
-	font-size: 15px;
+	font-size: 10px;
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: white;
 	border-radius: .5em;
@@ -179,14 +188,40 @@ main section button{
     box-shadow: 5px 5px 8px;
 
     position: absolute;
-    top: 16em;
-    left: 3em;
+    top: 17.5em;
+    left: 1.5em;
 }
 
 
-main section article:nth-of-type(1) img{
+main section article img{
     width: 2em;
 }
+
+main section{
+    margin: 1em;
+}
+
+main section h3{
+    margin-top: .5em;
+}
+
+
+
+main section:nth-of-type(2){
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    font-size: 15px;
+}
+
+
+main section:nth-of-type(3) h4{
+margin-top: 1em;
+}
+
+
+
+
+
 
 
 
