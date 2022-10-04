@@ -1,5 +1,4 @@
 // JavaScript Document
-console.log("hi");
 var bodyElement = document.querySelector("body");
 
 /******************************/
