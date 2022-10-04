@@ -1,0 +1,277 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+    box-sizing:border-box;  
+  }
+  
+  button, summary {
+      cursor: pointer;
+  }
+  
+  * {
+      padding: 0;
+      margin: 0;
+  }
+  
+  
+  
+  /*********************/
+  /* CUSTOM PROPERTIES */
+  /*********************/
+  :root {
+      /* startje */
+      --color-text: #141414;
+      --color-background: pink;
+  }
+  
+  
+  
+  /****************/
+  /* JOUW STYLING */
+  /****************/
+  
+  /* jouw code */
+  
+  body {
+    color:var(--color-text);
+    background-color:var(--color-background);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body.toonMenu {
+      overflow: hidden;
+  }
+  
+  body li{
+      list-style-type: none;
+  }
+  
+  
+  
+  
+  /**************/
+  /* NAVIGATION */
+  /**************/
+  
+  
+  nav {
+      display: flex;
+      background-color: pink;
+      padding-bottom: .5em;
+  }
+  
+  nav div input {
+  
+      background: pink;
+      border: none;
+      font-size: 1.1em;
+      padding: 10px 44px 10px 10px;
+      width: 1.3em;
+      transition: all .2s ease-in-out;
+      cursor: pointer;
+      border-radius: 16px;
+      color: pink;
+      margin-top: 1em;
+  }
+  
+  nav div input:focus {
+      width: 8em;
+      border: solid 2px rgb(243, 114, 135);
+      outline: 0;
+      color: rgb(195, 195, 195);
+      background-color: white;
+      z-index: -1;
+  }
+  
+  nav div img {
+      position: absolute;
+      right: 5%;
+      top: 3%;
+      transform: translateY(-50%);
+      pointer-events: none;
+  }
+  
+  nav img{
+      height: 28px;
+      margin-top: 1.2em;
+  }
+  
+  
+  nav h1{
+      margin: auto;
+  }
+  
+  nav div button{
+      margin: 1.2em 0 0 1em;
+      padding: .4em;
+      font-size: 18px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: white;
+      color: #141414;
+      border-radius: .5em;
+      border-style: none;
+  }
+  
+  nav ul button{
+      padding: .5em;
+      margin: .4em 0 .5em -.3em;
+      background-color: pink;
+  }
+  
+  nav div ul{
+      z-index: 1;
+      padding: 1em;
+    
+      display: grid;
+      align-content: start;
+      gap: 1em;
+      background-color: white;
+      color: #141414;
+  
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+  
+      transform: translatex(-100%);
+  
+      transition: transform .3s;
+  }
+  
+  body.toonMenu nav ul {
+      transform: translatex(0);
+  }
+  
+  
+  /********/
+  /* MAIN */
+  /********/
+  
+  
+  
+  main > a img{
+    display: flex;  
+    width: 2.5em;
+    margin: auto;
+    margin-top: 1em;
+  }
+  
+  main a{
+      text-decoration: none;
+      color: white;
+  }
+  
+  main h2 {
+      font-size: 1.2em;
+      margin: 1em 0  .5em 1.2em;
+  }
+  
+  main ul {
+      display: flex;
+      gap: .5em;
+      overflow: auto;
+      z-index: 5;
+  }
+  
+  main img{
+      max-width: 15em;
+      border-radius: .2em;
+  }
+  
+  main li:first-of-type{
+      margin-left: 1.4em;
+  }
+  
+  main a{
+      display:block;
+      transition : 0.1s;
+  }
+  
+  /**********/
+  /* FOOTER */
+  /**********/
+  
+  footer ul{
+      margin: 1em;
+  }
+  
+  footer ul {
+      color: #808080;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  footer li{
+      flex-basis: 50%;
+  }
+  
+  footer p {
+      color: #808080;
+      font-size: small;
+      margin-left: 1em;
+      margin-bottom: 1em;
+  }
+  
+  footer button{
+      margin: 0 0 1.3em 1em;
+      padding: .5em;
+      font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: white;
+      color: #141414;
+      border-radius: .5em;
+      border-style: none;
+  }
+  
+  
+  .light_mode{
+      color: white;
+      background-color: #700000;
+  }
+
+  .light_mode nav div ul{
+      background-color: #700000;
+      color: white;
+  }
+
+  
+  
+  
+  /**************/
+  /* BLINGBLING */
+  /**************/
+  a:focus{
+      outline-width: 3px;
+      outline-style: dashed;
+      outline-color: red;
+  }
+  
+  main section > ul a:hover {
+      transform: scale(1.1);
+  }
+  
+  main h1:hover {
+      text-decoration: underline;
+  }
+
+
+
+/************/
+/* Animatie */
+/************/
+
+@keyframes hart_animation {
+	0% {
+	  transform:scale(1);
+	}
+	100% {
+	  transform:scale(.7);
+	}
+  }
+  
+  main > a:hover {
+	animation-name:hart_animation;
+	animation-duration:1s;
+  }

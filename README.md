@@ -168,10 +168,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Uitvogelen hoe selectoren werken
+  - Verder niks
 
 </details>
 
@@ -185,26 +183,28 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik had deze week een aantal vragen aan de student assistent. Hij heeft mij geholpen om dit input field bij het vergrootglas te maken.
+
+
+  <img src="./readme-images/input_field.png" alt="Screenshot Input field">
+
+
+  Om dat samen met mij te doen en uit te leggen heeft dat veel tijd gekost en heb ik dus verder geen dingen meer kunnen vragen, maar dat was ook niet nodig
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Isabelle     | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | vragen stellen | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Vragen stellen
 
 </details>
 
@@ -220,14 +220,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  Ik merkte dat het erg last was om iets te kunnen verbeteren aan de toegankelijkheid van Netflix. Als zag er naar uit dat er goed over na is gedacht over alles zodat iedereen het goed kan gebruiken.
+
+  Het enige wat ik ben tegen gekomen wat beter had gekunt, is de duidelijkheid van de Focus state tijdens het tabben.
+
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
+  Bij het testen van de screen reader ging alles goed. Alles werd goed voor gelezen en er kwamen geen rare teksten.
+
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
+  Goed alt gebruiken
 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+
+  hier was ook geen probleem te vinden
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
@@ -235,13 +245,45 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
+  Hier was ook geen probleem te vinden.
+
+  Ik maak gebruik van goede grote buttons zodat ze niet moeilijk te miss zijn
+
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
+  Tijdens het proberen van de brillen kwam ik er achter dat dat opzich ook werkt. Sommige bijna niet maar dat komt omdat die beperking hee vervelend is.
+
+  dat geld dan voor de bril waar je alleen maar door een klein puntje kan kijken.
+
+  <img src="./readme-images/bril_klein_gaatje" alt="Bril met klein gaatje">
+
+  
+  Bij het testen van contrast, kleurenblind en dark/light mode ben ik er achter gekomen, dat mijn site nog goed te volgen is. Maar bij een paar ook zeker niet.
+
+  Hier een paar voorbeelden waar het wel goed ging:
+
+  <img src="./readme-images/blurred_vision.png" alt="Blurred Vision">
+
+  <img src="./readme-images/black_white.png" alt="Zwart en wit beeld">
+
+
+  Bij mijn Valentijn pagina ben ik er achter gekomen dat er bij een paar beperkingen het contrast niet goed is. De witte tekst is dan niet goed te zien op de licht roze achtergrond.
+
+  <img src="./readme-images/valentijn_black_white.png" alt="Valentijn pagina met zwart/wit beeld">
+
+  <img src="./readme-images/valentijn_kleurenblind.png" alt="Valentijn pagina met soort kleurenblindheid">
+
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
+  Ik heb het probleem van de Valentijn pagina opgelost door de tekst zwart te maken voor een beter contrast.
+
+  <img src="./readme-images/valentijn_verbeterd.png" alt="Valentijn pagina met zwart/wit beeld Verbeterd">
+
+  <img src="./readme-images/valentijn_verbeterd2.png" alt="Valentijn pagina met soort kleurenblindheid Verbeterd">
 
 </details>
 
@@ -256,25 +298,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Ik heb tijdens dit gesprek vooral veel vragen gesteld over hoe ik dingen beter kon maken. 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | vragen stellen | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - semantiek van detail HTML pagina
+  - Detail pagina episodes stukje of dat goed genoeg is 
+
 
 </details>
 
@@ -314,8 +354,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Voor alle plaatjes + Netflix logo + alle teksten op de index:
+  https://www.netflix.com/browse
+  2. Voor alle plaatjes op de valentijn pagina:
+  https://www.netflix.com/browse/genre/26156?bc=83
+  3. Alle episode plaatjes + kijkwijzer plaatjes + alle teksten op de detail pagina:
+  https://www.netflix.com/watch/70210887?trackId=254794450&tctx=3%2C2%2C2c4c5015-a328-42c9-a741-c9bda796d0c5-328507982%2C%2Cunknown%2C%2C%2C%2C70177057
+  4. Video op de detail pagina:
+  https://www.youtube.com/watch?v=sfAc2U20uyg
+  5. Hartje:
+  https://www.google.nl/search?q=heart+image+png&sxsrf=ALiCzsaTfknyhoSYngtq1MAJJi5pO919bg:1664792215352&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjRqvuk6sP6AhVEKuwKHR-pAMoQ_AUoAXoECAEQAw&biw=1920&bih=969&dpr=1#imgrc=ZM-5peHo54LaAM
+  6. Zombie op detail pagina:
+  https://nl.pinterest.com/pin/309974386823908733/
 
 </details>

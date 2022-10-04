@@ -27,8 +27,6 @@ button, summary {
 
 
 
-
-
 /****************/
 /* JOUW STYLING */
 /****************/
@@ -51,16 +49,16 @@ body li{
 
 
 
+
 /**************/
 /* NAVIGATION */
 /**************/
 
+
 nav {
 	display: flex;
-}
-
-nav div {
-	position: relative;
+	background-color: #141414;
+	padding-bottom: .5em;
 }
 
 nav div input {
@@ -89,22 +87,22 @@ nav div input:focus {
 nav div img {
 	position: absolute;
 	right: 5%;
-	top: 30%;
+	top: 3%;
 	transform: translateY(-50%);
 	pointer-events: none;
 }
 
 nav img{
 	height: 28px;
-	margin-top: 1.3em;
+	margin-top: 1.2em;
 }
 
 
-nav a:first-of-type{
+nav h1{
 	margin: auto;
 }
 
-nav section button{
+nav div button{
 	margin: 1.2em 0 0 1em;
 	padding: .4em;
 	font-size: 18px;
@@ -121,7 +119,7 @@ nav ul button{
 	background-color: #141414;
 }
 
-nav section ul{
+nav div ul{
 	z-index: 1;
 	padding: 1em;
   
@@ -129,6 +127,7 @@ nav section ul{
 	align-content: start;
 	gap: 1em;
 	background-color: red;
+	color: white;
 
 	position: fixed;
 	left: 0;
@@ -151,14 +150,21 @@ body.toonMenu nav ul {
 /********/
 
 
+main > a img{
+    display: flex;  
+    width: 2.5em;
+    margin: auto;
+    margin-top: 1em;
+}
+
 main a{
 	text-decoration: none;
 	color: white;
 }
 
-main h1 {
+main h2 {
 	font-size: 1.2em;
-	margin: 3em 0  .5em 1.2em;
+	margin: 1em 0  .5em 1.2em;
 }
 
 main ul {
@@ -190,13 +196,13 @@ footer ul{
 	margin: 1em;
 }
 
-footer section ul {
+footer ul {
 	color: #808080;
 	display: flex;
 	flex-wrap: wrap;
 }
 
-footer section li{
+footer li{
 	flex-basis: 50%;
 }
 
@@ -207,6 +213,27 @@ footer p {
 	margin-bottom: 1em;
 }
 
+footer button{
+	margin: 0 0 1.3em 1em;
+	padding: .5em;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+	color: #141414;
+	border-radius: .5em;
+	border-style: none;
+}
+
+
+.light_mode{
+	color: #141414;
+	background-color: white;
+}
+
+.light_mode footer button{
+	color: white;
+	background-color: #141414;
+}
 
 
 
@@ -226,3 +253,22 @@ main section > ul a:hover {
 main h1:hover {
 	text-decoration: underline;
 }
+
+
+/************/
+/* Animatie */
+/************/
+
+@keyframes zoen-animation {
+	0% {
+	  transform:scale(1);
+	}
+	100% {
+	  transform:scale(1.5);
+	}
+  }
+  
+  main > a:hover {
+	animation-name:zoen-animation;
+	animation-duration:1s;
+  }

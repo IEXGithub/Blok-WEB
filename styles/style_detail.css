@@ -57,6 +57,8 @@
   
   nav {
       display: flex;
+      background-color: var(--color-background);
+      padding-bottom: 1em;
   }
   
   nav div {
@@ -100,7 +102,7 @@
   }
   
   
-  nav a:first-of-type{
+  nav h1{
       margin: auto;
   }
 
@@ -108,7 +110,7 @@
   /* OPEN MENU */
   /*************/
   
-  nav section button{
+  nav div button{
       margin: 1.2em 0 0 1em;
       padding: .4em;
       font-size: 18px;
@@ -129,7 +131,7 @@
       background-color: #141414;
   }
   
-  nav section ul{
+  nav div ul{
       z-index: 1;
       padding: 1em;
     
@@ -159,17 +161,29 @@
 /* MAIN */
 /********/
 
-main section video{
+main{
+    position: relative;
+}
+
+main > img{
+    width: 3em;
+    position: absolute;
+    top: -3.5%;
+    z-index: 1;
+    transform: translatex(-100%);
+}
+
+main div video{
     width: 21.5em;
     margin: 1em 0;
     border-radius: 1em;
 }
 
-main section:nth-of-type(1){
+main div:nth-of-type(1){
     position: relative;
 }
 
-main section h2{
+main div h2{
     font-size: 1.7em;
     text-shadow: 2px 2px 8px black;
 
@@ -178,7 +192,7 @@ main section h2{
     left: .5em;
 }
 
-main section button{
+main div button{
     padding: .4em;
 	font-size: 10px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -193,31 +207,45 @@ main section button{
 }
 
 
-main section article img{
+main div article img{
     width: 2em;
 }
 
-main section{
+main div, section{
     margin: 1em;
 }
 
-main section h3{
+main div h3{
     margin-top: .5em;
 }
 
 
 
-main section:nth-of-type(2){
+main div:nth-of-type(2){
     display: grid;
     grid-template-columns:2fr 1fr;
     font-size: 15px;
 }
 
 
-main section:nth-of-type(3) h4{
+main div:nth-of-type(3) h4{
 margin-top: 1em;
 }
 
+
+main section article{
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    border-bottom: solid 1px gray;
+}
+
+main section article img{
+    width: 8em;
+    margin: auto;
+}
+main section article h4{
+    margin-bottom: 1em;
+}
 
 
 
@@ -232,7 +260,7 @@ margin-top: 1em;
 
 
 
-footer section ul {
+footer ul {
 	color: #808080;
 	display: flex;
 	flex-wrap: wrap;
@@ -240,7 +268,7 @@ footer section ul {
     margin-top: 1em;
 }
 
-footer section li{
+footer li{
 	flex-basis: 50%;
 }
 
@@ -250,3 +278,56 @@ footer p {
 	margin-left: 1em;
 	margin-bottom: 1em;
 }
+footer button{
+	margin: 0 0 1.3em 1em;
+	padding: .5em;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+	color: #141414;
+	border-radius: .5em;
+	border-style: none;
+}
+
+
+.light_mode{
+	color: #141414;
+	background-color: white;
+}
+
+.light_mode footer button{
+	color: white;
+	background-color: #141414;
+}
+.light_mode main div article img{
+    background-color: #141414;
+    padding: 1em;
+}
+
+.light_mode main h2{
+    color: white;
+}
+
+
+
+
+/************/
+/* Animatie */
+/************/
+
+@keyframes zombie_walk {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 100%;
+        transform: translatex(0%);
+    }
+}
+
+main > img{
+    animation: linear alternate;
+    animation-name: zombie_walk;
+    animation-duration:5s;
+}
+
